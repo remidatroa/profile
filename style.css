@@ -7,6 +7,7 @@ body{
   color:  white;
   font-size: 15px;
   line-height: 1.6em;
+  text-decoration: none;
 }
 body:hover{
 background-image:url("https://media.giphy.com/media/xT9IgusfDcqpPFzjdS/giphy.gif");
@@ -50,8 +51,39 @@ table{
   line-height: 1.6em;
 }
 
-/* First simple components */
+ul {
+  list-style-type: none;
+}
 
+/* First simple components */
+#sidebar {
+  background-image: url("https://media.giphy.com/media/xT8qBfPfq52vkkdRte/giphy.gif");
+  background-repeat: no-repeat;
+    position: fixed;
+    left: 0px;
+    top: 10px;
+    bottom: 0px;
+    width: 120px;
+    text-align: left;
+    height: 200px;
+    font-size: 20px;
+}
+#sidebar:hover {
+  background-image: url("https://media.giphy.com/media/3oEduX4yhqMFHSqLQY/giphy.gif");
+  background-repeat: no-repeat;
+    position: fixed;
+    left: 0px;
+    top: 10px;
+    bottom: 0px;
+    width: 120px;
+    text-align: left;
+    height: 350px;
+    font-size: 20px;
+}
+
+#page-content {
+  margin-left: 300px;
+}
 .container{
   width: 500px;
   margin: 30px auto;
