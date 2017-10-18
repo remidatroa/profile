@@ -34,7 +34,7 @@ h3{
 }
 
 p{
-  text-align: justify;
+  text-align: left;
 }
 
 a{
@@ -87,6 +87,9 @@ ul {
 #page-content {
   margin-left: 300px;
 }
+
+
+
 .container{
   width: 500px;
   margin: 30px auto;
@@ -118,6 +121,9 @@ ul {
 }
 .text-center{
   text-align: center;
+}
+.text-left{
+  text-align: left;
 }
 .list-inline {
   padding-left: 0;
