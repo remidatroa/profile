@@ -8,6 +8,8 @@ body{
   font-size: 15px;
   line-height: 1.6em;
   text-decoration: none;
+  margin: 0px;
+
 }
 body:hover{
 background-image:url("https://media.giphy.com/media/xT9IgusfDcqpPFzjdS/giphy.gif");
@@ -79,6 +81,7 @@ ul {
     text-align: left;
     height: 350px;
     font-size: 20px;
+    background-size: cover;
 }
 
 #page-content {
@@ -101,6 +104,7 @@ ul {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.005);
+  background-size: cover;
 }
 .img-100{
   width: 100px;
